@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: helvertica;
+    color: #333;
+    box-sizing: border-box;
+}
+body {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(img/Nebula.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    border: 2px solid #596B7E;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+button {
+    border: 0px solid black;
+}
+
+.todo-conteiner {
+    border-radius: 10px;
+    display: flex;
+    top: 80px;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+input,
+select {
+    padding: 6px;
+}
+
+.todo {
+    display: flex;
+    height: auto;
+}
+
+.todo-conteiner>header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87.5px;
+    width: auto;
+
+}
+
+#todo-form {
+    display: flex;
+    flex-direction: column;
+    height: 87.5px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: solid 1px gray;
+    padding: 10px;
+}
+
+.toolbar-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87.5px;
+    width: 100%;
+    border-top: solid 1px gray;
+    padding: 10px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.todo-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px gray;
+    height: 65px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#todo-list:hover {
+    background-color: aqua;
+}
+
+#todo-list>button,
+#todo-list>h3 {
+    margin-right: 5px;
+}
+
+.form-control,
+.form-search {
+    display: flex;
+    align-items: center;
+}
+
+.form-control>button,
+.form-search>button {
+    margin-left: 5px;
+}
+.todo-todo{
+    top:80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+}
+.None{
+    display:none;
+}
+.Done{
+    text-decoration: line-through;
+}
+.A{
+    background-color: blue;
+    display:none;
+}
+.form-edit{
+    display: flex;
+    flex-direction: column;
+}
